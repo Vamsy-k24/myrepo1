@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:yellow;
+}
+#topmenubar{
+    background-color:rgb(231, 49, 16); 
+    width:100%;
+    height:40px;
+    display:inline-flex;
+    justify-content:space-evenly;
+}
+.navigation{
+align-content:flex-end;
+}
+.links {
+    font-family:sans-serif;
+    font-weight:bold;
+    color:whitesmoke;
+    letter-spacing:0.2em;
+    text-decoration:none;
+   /* border:1px solid brown; */
+    height:30px;
+    
+    
+}
+.links:hover{
+    /* font-size:1.1rem;*/
+    color:#33FF39;
+    transform: scale(2);
+}
+
+.logo{
+    height:40px;
+    float:left;
+}
+.logo:hover{
+    transform: scale(1.5);
+    transform-origin: 0 0px;
+    transition:0.2s;
+}
+
+#topmenubar li{
+   
+    list-style:none;
+  padding:12px 25px 0 25px;
+  float:right;
+   
+}
+.backgroundimage {
+    
+    
+    height:100vh;
+
+    background-image: url(../restaurant/tejesh.jpeg);
+    background-size:cover;
+    background-position:top;
+    
+}
+.intro-welcome{
+    
+
+    text-align: center;
+    line-height:100px;
+}
+#intro1{
+
+   font-size:80px;
+   color:white;
+   display:block;
+   background-color:rgba(0, 0, 0, 0.363);
+}
+#intro2{
+ font-size:80px;
+ color:white;
+ display:block;
+ background-color:rgb(0, 0, 0,0.363);
+}
+#intro3{
+    font-size:50px;
+    
+    color:white;
+    
+    background-color:rgb(0, 0, 0,0.363);
+}
+
+/* #orderbutton{
+    border:whitesmoke 2px solid;
+
+}
+   */
+   
+   
